@@ -3,7 +3,6 @@ INDEX VERSION 1.130+E:\work\spring\workspace\test\.metadata\.plugins\org.eclipse
 53960531.index
 2187196975.index
 4149353629.index
-3340782903.index
 514179111.index
 1220308574.index
 3680637729.index
