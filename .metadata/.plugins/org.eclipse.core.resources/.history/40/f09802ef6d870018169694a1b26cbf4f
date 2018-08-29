@@ -1,0 +1,34 @@
+package com.student.dal;
+
+import java.util.Optional;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.student.dal.entities.Student;
+import com.student.dal.repos.StudentRepository;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class StudentdalApplicationTests {
+	
+	@Autowired
+	StudentRepository studentRepository; 
+	@Test
+	public void testCreateStudent() {
+		Student student = new Student();
+		student.setName("bhavesh");
+		student.setCourse("Spring Boot");
+		student.setFee(30d);
+		studentRepository.save(student);
+	}
+	
+	@Test
+	public void TestStudentFindById() {
+		Student student = studentRepository.findOne(1l);
+		System.out.println(student);
+	}
+}

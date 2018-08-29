@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;reportUtil2&apos; from expression &apos;reportUtil&apos;&#x0D;&#x0A;- Original project: &apos;LocationWeb-1&apos;&#x0D;&#x0A;- Variable name: &apos;reportUtil2&apos;&#x0D;&#x0A;- Destination method: &apos;com.location.controller.LocationController.generateReport()&apos;&#x0D;&#x0A;- Variable expression: &apos;reportUtil&apos;" description="Extract local variable &apos;reportUtil2&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;com.location.controller{LocationController.java" name="reportUtil2" replace="false" selection="2930 0" stamp="1534680556345" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LocationWeb/src/main/resources/com/location/entities/location.java&apos; to &apos;Location.java&apos;" description="Rename resource &apos;location.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/com/location/entities/location.java" name="Location.java" stamp="1532025474898" updateReferences="true"/>
+</session>
