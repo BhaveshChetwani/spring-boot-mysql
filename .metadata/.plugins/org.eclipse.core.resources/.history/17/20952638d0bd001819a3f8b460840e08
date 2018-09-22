@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<project default="compile" basedir=".">
+
+	<echo message="pulling in property files" />
+	<property file="axis_bujava.properties" />
+	<property name="build.dir" location="test">
+	</property>
+	<property name="src.dir" location="src">
+	</property>
+	<echo message="calling the web services generation ant task: axis_bujava" />
+	<target name="main">
+	</target>
+	<target name="compile">
+		<javac srcdir="${src.dir}" destdir="${build.dir}">
+		</javac>
+	</target>
+
+</project>
