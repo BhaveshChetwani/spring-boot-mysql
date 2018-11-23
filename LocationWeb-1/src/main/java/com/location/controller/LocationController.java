@@ -82,15 +82,6 @@ public class LocationController {
 		return "showAllLocation";
 	}
 	
-	@RequestMapping(value="/print", method=RequestMethod.GET)
-	public String printUsers() {
-		List<WpUser> wpUsers = wpService.getAllLocation();
-		for(WpUser temp : wpUsers) {
-			System.out.println(temp.getUser_email());
-		}
-		return "";
-	}
-	
 	@RequestMapping("/report")
 	public String generateReport() {
 		String path = sc.getRealPath("/");
